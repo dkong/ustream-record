@@ -1,0 +1,1 @@
+ps aux | grep "rtmpdump" | awk '{print $2}' | xargs kill
