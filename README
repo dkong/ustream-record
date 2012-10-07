@@ -1,0 +1,7 @@
+Scheduling a ustream for recording:
+
+./schedule.sh <start time> <stop time> <ustream url> <output.flv>
+
+Example:
+
+./schedule.sh "20:23 today" "20:26 today" http://www.ustream.tv/ELECTRIFIED output.flv
