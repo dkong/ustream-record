@@ -5,3 +5,13 @@ Scheduling a ustream for recording:
 Example:
 
 ./schedule.sh "20:23 today" "20:26 today" http://www.ustream.tv/ELECTRIFIED output.flv
+
+Requirements (must be enabled for scheduling to work):
+
+Enable 'at' scheduling:
+
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.atrun.plist
+
+Disable 'at' scheduling:
+
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.atrun.plist
